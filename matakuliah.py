@@ -1,6 +1,6 @@
 import sqlite3
 
-# Fungsi untuk membuat tabel matakuliah jika belum ada
+# Fungsi untuk membuat tabel matakuliah jika memang belum ada
 def create_table():
     connection = sqlite3.connect("matakuliah.db")
     cursor = connection.cursor()
